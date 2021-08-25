@@ -1,0 +1,9 @@
+/*class*/
+.app-success-alert {
+  color: green;
+}
+
+/*attribute*/
+div[app-warning-alert] {
+  color: red;
+}
