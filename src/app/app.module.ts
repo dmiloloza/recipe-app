@@ -29,5 +29,6 @@ import { ShopingEditComponent } from './shoping-list/shoping-edit/shoping-edit.c
   providers: [],
   bootstrap: [AppComponent]
 })
+
 export class AppModule {
 }
