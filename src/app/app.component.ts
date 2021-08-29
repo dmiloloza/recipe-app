@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  link: string = 'recipe';
+  link: string = 'shopping-list';
 
   onNavigate(parameter: string) {
     this.link = parameter;
