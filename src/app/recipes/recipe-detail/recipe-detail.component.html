@@ -1,5 +1,5 @@
+<!-- Image -->
 <div class="row">
-  <!-- Image -->
   <div class="col-xs-12">
     <img
         [src]="recipe.imagePath"
@@ -7,18 +7,19 @@
         class="img-responsive" style="max-width: 400px">
   </div>
 </div>
-<div class="row">
 
-  <!-- Title -->
+<!-- Title -->
+<div class="row">
   <div class="col-xs-12">
     <h1>{{recipe.name}}</h1>
   </div>
 </div>
+
+<!-- Edit Recipe -->
 <div class="row">
   <div class="col-xs-12">
-    <div class="btn-group">
-
-      <!-- Edit Recipe -->
+    <div appDropdown class="btn-group">
+      
       <button
           type="button"
           class="btn btn-primary dropdown-toggle">Edit Recipe <span class="caret"></span>
