@@ -11,6 +11,7 @@ export class ShoppingEditComponent implements OnInit {
   @ViewChild('amountInput', {static: true}) amount!: ElementRef;
 
   @Output() newIngredient = new EventEmitter<Ingredient>();
+  @Output() clearIngredients = new EventEmitter<Ingredient>();
 
   constructor() {
   }
@@ -26,11 +27,11 @@ export class ShoppingEditComponent implements OnInit {
     this.newIngredient.emit(ingredient);
   }
 
-  onDelete() {
-
+  onClear() {
+    this.clearIngredients.emit();
   }
 
-  onClear() {
+  onDelete() {
 
   }
 }

@@ -23,4 +23,12 @@ export class ShoppingListComponent implements OnInit {
   addToList(ingredient: Ingredient) {
     this.ingredients.push(ingredient);
   }
+
+  clearList() {
+    this.ingredients = [];
+  }
+
+  // deleteFromList(ingredient: Ingredient) {
+  //
+  // }
 }
