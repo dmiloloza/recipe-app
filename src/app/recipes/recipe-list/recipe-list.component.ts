@@ -19,6 +19,7 @@ export class RecipeListComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    console.log('This is test commit')
   }
 
   onRecipeSelected(recipe: Recipe) {
